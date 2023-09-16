@@ -1,0 +1,31 @@
+.item-card-vehicle {
+	background: rgb(160, 171, 191);
+	width: 37vh;
+	height: 41vh;
+	padding: 2vh;
+	margin: 1vw;
+	display: inline-block;
+	border-radius: 5%;
+	background: linear-gradient(to bottom, #1d1d1f, #414b5d);
+	cursor: pointer;
+	transition: 0.9s all ease-in-out;
+}
+
+.img-card-home {
+	width: 31.5vh;
+	height: 20vh;
+}
+.img-card-venda{
+	width: 100vh;
+	height: 50vh;
+}
+.img-card-home, .img-card-venda{
+	border-radius: 10%;
+	margin: auto;
+	display: block;
+	margin-bottom: 2vh;
+	transition: 0.3s all ease-in-out;
+}
+.img-card-home:hover {
+	transform: scale(1.1);
+}
